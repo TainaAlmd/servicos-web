@@ -4,58 +4,113 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>SERVIÇOS</title>
+        <title>SERVIÇOS &#169;</title>
     </head>
     <body>
-        
-        <nav>
+
+        <nav id="topo-nav"> 
             <a href="#">Serviços Remotos</a>
-            <ul>
+            <!--ul>li*4>a[href="#sobre"][target="_blank"]>{Sobre} -> Emmet abreviation-->
+            <ul><!--Dentro do ul SOMENTE LI-->
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#servicos">Serviços</a></li>
                 <li><a href="#imagens">Imagens</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
-        </nav>
+       </nav>
 
-        <header id="topo">
+       <header id="topo">
             <h1>Serviços Remotos</h1>
             <p>
-                Prestamos serviços nas mais diversas áreas, onde remotamente podemos estar auxiliando nossos clientes.
+                Prestamos serviços nas mais diversas áreas, onde remotamente podemos estar auxiliando nossos clientes. 
             </p>
             <p>
-                Os serviços incluem: Desenvolvimento Web, Workshops Remotos, Segurança da Informação e curso das linguagens que estão no topo da lista das mais utilizadas do mercado.
+                Os serviços incluem: Desenvolvimento Web, Workshops Remotos, Segurança da Informação e Cursos das linguagens que estão no topo da lista das mais utilizadas do mercado.
             </p>
             <p>
-                Não falamos por nós, deixamos que o nosso trabalho e nossos clientes respondam.
+                Não falamos por nós, deixamos que nosso trabalho e nossos clientes respondam.
             </p>
             <a href="#servicos">Ver mais...</a>
-        </header>
+       </header>
 
-        <section id="#sobre">
+       <section id="sobre">
             <h2>Sobre</h2>
+
             <div>
-                <img src="./img/html.jpg" alt="" width="50%">
+                <img src="./img/desenvolvimento.jpg" alt="dispositivos com o mesmo site aberto" width="20%"><!--Atributos obrigatórios: src que indica o path relativo da imagem e alt que é utimizado para Acessibilidade, onde a descrição da imagem é colocada.-->
             </div>
-            <!-- Criar as próximas divs de serviços com as respectivas imagens-->
-            <h2>Serviços</h2>
-            <h3>Desenvolvimento Web</h3>
-            <div>
-                <img src="./img/devop-web.png" alt="desenvolvimento-web" width="50%">
-            </div>
-            <h3>Workshops Remotos</h3>
-            <div>
-                <img src="./img/remote-workshops.jpg" alt="workshops-remotos" widht="50%">
-            </div>
-            <h3>Segurança da Informação</h3>
-            <div>
-                <img src="./img/cyber-security.jpg" alt="cyber-segurança" widht="50%">
-            </div>
-            <h3>Curso de linguagens de programação</h3>
-            <div>
-                <img src="./img/linguagens-programacao.png" alt="liguagens-programação" widht="50%">
-            </div>
+       </section>
+
+       <section id="servicos">
+           <h2>Serviços</h2>
+           <div>
+                <h3>Desenvolvimento Web</h3>
+                <img src="./img/desenvolvimento.jpg" alt="" width="20%">
+                <h3>Workshops Remotos</h3>
+                <img src="./img/comunicao.jpg" alt="rede de comunicação" width="20%">
+                <h3>Segurança da Informação</h3>
+                <img src="./img/seguranca-info.png" alt="" width="20%">
+                <h3>Cursos das principais linguagens do mercado</h3>
+                <img src="./img/cursos.png" alt="Símbolos das linguagens de programação" width="20%">
+           </div>
+       </section>
+
+       <section id="imagens">
+           <h2>Imagens</h2>
+           <img src="./img/backbone.jpg" alt="rede de computadores" width="20%">
+           <img src="./img/cidade.jpg" alt="cidade" width="20%">
+           <img src="./img/fundo-pc.jpg" alt="hacker com códigos no fundo" width="20%">
+           <img src="./img/eventos.jpg" alt="fone de ouvido" width="20%">
+           <img src="./img/internet.jpg" alt="mundo conectado" width="20%">
+           <img src="./img/rede.jpg" alt="rede de pontos conectados" width="20%">
+       </section>
+
+        <section id="contato">
+            <h2>Contatos</h2>
+            <span>Fale Conosco</span>
+         <div>
+            <img src="./img/tel.png" alt="icone de telefone" width="2%">
+            <p>
+                <a href="tel:11987344534">(11)98734-4534</a>
+            </p>
+        </div>
+        <div>
+            <img src="./img/mail.png" alt="icone de email" width="2%">
+            <p>
+                <a href="mailto:diogo.giarranti@gmail.com">Email</a>
+            </p>
+        </div>
         </section>
         
+    <footer id="rodape">
+    <span>Autores da página</span>
+    <ul>
+        <li>Heitor Borba</li><a href="heitor.marini07@gmail.com">Email</a>
+        <li>Mateus Leme</li><a href="mateusdacostaleme@gmial.com" target="_blank">Email</a>
+        <li>Diogo Kahn</li><a href="mailto:diogo.giarranti@gmail.com" target="_blank">Email</a>
+        <li>Rafael Ramos</li><a href="mailto:rrcosta04@gmail.com" target="_blank">Email</a>
+        <li>Leonardo Ramos</li><a href="mailto:lrcosta04@gmail.com" target="_blank">Email</a>
+    </ul>
+    <a href="https://www.instagram.com/heitor.marini195/">Instagram</a>
+
+    <p>
+        Copyright © op15 - 2022 Diogo G. Kahn, Heitor B. Marini,<br>Leonardo R. Costa, Rafael R. Costa,
+        Mateus C. Leme 
+
+        Todos direitos reservados. Reprodução ou divulgação total ou parcial deste documento é expressamente
+        proíbido sem o consentimento formal, por escrito, dos autores.
+    </p>
+
+    <nav>
+        <ol>
+            <li><a href="#topo-nav">topo</li>
+            <li><a href="#sobre">sobre</li>
+            <li><a href="#servicos">seviços</li>
+            <li><a href="#imagens">imagens</a></li>
+            <li><a href="#contato">contatos</li>
+        </ol>
+    </nav>
+
+    </footer>  
     </body>
 </html>
